@@ -8,8 +8,7 @@ void main() {
     printf("Enter your size in m: ");
     scanf("%f", &size);
     printf("Enter your sex: ");
-    scanf("%c", &sex);
-    scanf("%c", &sex);
+    scanf(" %c", &sex);
     weight /= (size * size);
     if(weight > 20 && weight < 25) {
         printf("You are normal\n");

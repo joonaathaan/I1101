@@ -6,8 +6,7 @@ void main() {
     printf("Enter the salary of the employee: ");
     scanf("%d", &salary);
     printf("Enter the employment type: ");
-    scanf("%c", &employment_type);
-    scanf("%c", &employment_type);
+    scanf(" %c", &employment_type);
     switch(employment_type) {
         case 'M':{
             salary += 800;
