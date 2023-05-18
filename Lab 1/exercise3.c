@@ -1,8 +1,12 @@
 #include <stdio.h>
 
 void main() {
-    int number;
-    printf("Please enter a number: ");
-    scanf("%d", &number);
-    printf("The inverse of %d is 1/%d\n", number, number);
+    int i;
+    printf("Please enter an integer");
+    scanf("%i", &i);
+    while(i>0) {
+        printf("%i", i%10);
+        i/=10;
+    }
+    system("pause"); // pauses the program; display ONLY;
 }

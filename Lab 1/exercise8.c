@@ -8,4 +8,5 @@ void main() {
     y = x - y;
     x -= y;
     printf(" the exchanged values of x and y are %d, %d respectively\n", x, y);
+    system("pause"); // pauses the program; display ONLY;
 }

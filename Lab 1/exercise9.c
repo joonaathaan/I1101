@@ -10,6 +10,7 @@ void main() {
     printf("%d + %d = %d\n", m ,n, m + n);
     printf("%d - %d = %d\n", m ,n, m - n);
     printf("%d * %d = %d\n", m ,n, m * n);
-    printf("%d / %d = %f\n", m ,n, m / (n * 1.0));
+    printf("%d / %d = %f\n", m ,n, (float)m / n);
     printf("%d %% %d = %d\n", m ,n, m % n);
+    system("pause"); // pauses the program; display ONLY;ß
 }

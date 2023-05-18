@@ -8,4 +8,5 @@ void main() {
         number += 3;
     }
     printf("The sum is %d\n", sum);
+    system("pause"); // pauses the program; display ONLY;
 }

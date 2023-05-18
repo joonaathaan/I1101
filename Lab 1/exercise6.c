@@ -7,4 +7,5 @@ void main() {
     scanf("%d %d %d", &number_1, &number_2, &number_3);
     average =  (number_1 +  number_2 + number_3) / 3;
     printf("The average of the 3 numbers is %.2f\n", average);
+    system("pause"); // pauses the program; display ONLY;
 }

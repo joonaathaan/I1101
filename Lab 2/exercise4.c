@@ -10,4 +10,5 @@ void main() {
     else {
         printf("Category B\n");
     }
+    system("pause"); // pauses the program; display ONLY;
 }

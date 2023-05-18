@@ -13,4 +13,5 @@ void main() {
     scanf("%d", &year);
     printf("Your full name is %s %s\n", name, surname);
     printf("Your age is %i\n",  atoi(__DATE__ + 7) - year );
+    system("pause"); // pauses the program; display ONLY;
 }

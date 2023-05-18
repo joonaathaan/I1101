@@ -23,7 +23,7 @@ void main() {
                 printf("Invalid division, b is null or equal 0\n");
             }
             else {
-                printf ("The division of %d and %d is %.1f\n", a, b, (a*1.0)/b);
+                printf ("The division of %d and %d is %.1f\n", a, b, (float)a/b);
             }
             break;
         }
@@ -41,4 +41,5 @@ void main() {
             break;
         }
     }
+    system("pause"); // pauses the program; display ONLY;
 }

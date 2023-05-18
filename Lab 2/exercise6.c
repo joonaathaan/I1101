@@ -10,4 +10,5 @@ void main() {
     else {
         printf("%d is not divisible by %d\n", a, b);
     }
+    system("pause"); // pauses the program; display ONLY;
 }

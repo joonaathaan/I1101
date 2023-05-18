@@ -9,17 +9,17 @@ void main() {
     if(average < 50) {
         printf("Failed\n");
     }
-    else if(average >= 50 && average < 60) {
+    else if(average < 60) {
         printf("Fair\n");
     }
-    else if(average >= 60 && average < 70) {
+    else if(average < 70) {
         printf("Good\n");
     }
-    else if(average >= 70 && average < 80) {
+    else if(average < 80) {
         printf("Very good\n");
     }
-    else if(average >= 80) {
+    else {
         printf("Excellent\n");
     }
-
+    system("pause"); // pauses the program; display ONLY;
 }

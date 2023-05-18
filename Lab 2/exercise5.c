@@ -7,7 +7,7 @@ void main() {
     if(age >= 0 && age < 18) {
         printf("You are a young man\n");
     }
-    else if (age >= 18 && age < 65) {
+    else if (age < 65) {
         printf("You are an adult\n");
     }
     else if (age >= 65) {
@@ -16,4 +16,5 @@ void main() {
     else {
         printf("Invalid age\n");
     }
+    system("pause"); // pauses the program; display ONLY;
 }

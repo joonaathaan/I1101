@@ -10,7 +10,8 @@ void main() {
     else if(a < b) {
         printf("a is less than b\n");
     }
-    else if ( a == b ) {
+    else {
         printf("a is equal b\n");
     }
+    system("pause"); // pauses the program; display ONLY;
 }

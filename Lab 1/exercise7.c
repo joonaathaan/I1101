@@ -1,14 +1,10 @@
 #include <stdio.h>
 
 void main() {
-    float price, tax;
-    int quantity;
-    printf("Please Enter the price of the book: ");
+    float price, VAT = 11.0;
+    printf("Please Enter the price HT: ");
     scanf("%f", &price);
-    printf("Please Enter the tax amount: ");
-    scanf("%f", &tax);
-    printf("Please Enter the quanity of books: ");
-    scanf("%d", &quantity);
-    price *= quantity * (1 + tax/100);
-    printf("The total price of %d book(s) is %0.2f$\n", quantity, price);
+    price *= (1 + VAT/100);
+    printf("The price TTC is: %0.2f$\n", price);
+    system("pause"); // pauses the program; display ONLY;
 }
